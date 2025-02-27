@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brillando con Estilo - Maquillaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #d63384;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .productos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .producto {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .contacto {
+            background-color: #f2c2d1;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #c02772;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        💄 Brillando con Estilo - Maquillaje 💋
+    </header>
+
+    <section class="productos">
+        <div class="producto">
+            <img src="https://static.sweetcare.com/img/prd/488/v-638200524216042087/maybelline-016218bl-1.webp" alt="Labial Mate">
+            <h3>Labial Mate</h3>
+            <p>Colores vibrantes y de larga duración.</p>
+        </div>
+        <div class="producto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_D6BX3DeY_qzQM6rb3L4D9nl-QvB-wNi8A&s" alt="Paleta de Sombras">
+            <h3>Paleta de Sombras</h3>
+            <p>Variedad de tonos para un look perfecto.</p>
+        </div>
+        <div class="producto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxnUolB3rDxAWJu8FF-FBm2CxoMaqaXmagog&s" alt="Base de Maquillaje">
+            <h3>Base de Maquillaje</h3>
+            <p>Acabado natural y cobertura ideal.</p>
+        </div>
+        <div class="producto">
+            <img src="https://www.avon.com.gt/dam/jcr:ebde2e08-9123-40a3-b4d5-f23c221b34ff/C07_PR_ColorTrendRuborCompactoFacial3Tonos.jpg" alt="Rubor Compacto">
+            <h3>Rubor Compacto</h3>
+            <p>Un toque de color para resaltar tu belleza.</p>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h2>Contáctanos</h2>
+        <p>Déjanos tu mensaje para más información.</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required><br>
+            <input type="email" placeholder="Tu correo" required><br>
+            <textarea placeholder="Tu mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
